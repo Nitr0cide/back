@@ -1,0 +1,14 @@
+.liste {
+    float: left;
+    width: 300px;
+    margin: 10px;
+}
+
+.detail {
+    float: left;
+    width: 400px;
+    margin: 10px;
+    border: 1px solid black;
+    padding: 15px;
+}
+
