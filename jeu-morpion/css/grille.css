@@ -1,0 +1,56 @@
+td {
+    height: 45px;
+    width: 45px;
+    border : 1px solid black;
+}
+table {
+    border-collapse: collapse;
+    margin: 80px auto;
+}
+
+td.joueur1 {
+    background-color: #FF4040;
+}
+
+td.joueur2 {
+    background-color: #0040FF;
+}
+
+
+#joueur1, #joueur2 {
+    position: absolute;
+    top: 20px;
+    opacity: 0.5;
+
+}
+
+#joueur1 {
+    left: 100px
+}
+
+#joueur2 {
+   right: 100px
+}
+
+#joueur1 input {
+    border: 2px solid #FF4040;
+    background-color: #FF4040;
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+#joueur2 input {
+    border: 2px solid #0040FF;
+    background-color: #0040FF;
+    color: white;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+
+#joueur1.actif, #joueur2.actif {
+    opacity: 1;
+    font-size: 1.5em
+
+}
